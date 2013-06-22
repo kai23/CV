@@ -1,0 +1,17 @@
+.affix {
+    top:0px;
+}
+
+.nav {
+    padding-top:10px;
+    background-color:#FFF;
+}
+
+.nav li {
+     float:left;
+}
+
+
+fieldset legend {
+    padding-top:40px;
+}
