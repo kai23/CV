@@ -1,15 +1,58 @@
+
+/* header */
+
 #header {
 	background-color: #1abc9c;
 	height: 80px;
 }
 
-#header p {
-	position: relative;
-	top:15%;
+p#nom {
+	margin-left: 25px;
+	margin-top: 25px;
+	font-family: 'Segoe UI';
+	font-size: 14pt;
+	color: white;
 }
 
 #header ul li {
 	float: left;
 	list-style: none;
-	margin-left:15px;
+	margin-left:45px;
+	margin-right: 55px;
 }
+
+#header ul {
+	margin-right: 5%;
+	margin-top: 25px;
+}
+
+
+#header ul li#first {
+	margin-left: 0px;
+}
+
+#header ul li#last {
+	margin-right: 0px;
+} 
+
+
+#header ul li a {
+	color: white;
+	font-family: 'Segoe UI';
+	font-size: 12pt;
+	text-decoration: none;
+	padding: 10px 18px 10px 18px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+
+#header ul li a:hover {
+	background: #16a085;
+
+}
+
+#navigation {
+	width: 100%;
+}
+
