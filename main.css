@@ -1,5 +1,6 @@
 
-/* header */
+/* -------------> 
+		header */
 
 #header {
 	background-color: #1abc9c;
@@ -17,7 +18,7 @@ p#nom {
 #header ul li {
 	float: left;
 	list-style: none;
-	margin-left:45px;
+	margin-left:35px;
 	margin-right: 55px;
 }
 
@@ -53,6 +54,44 @@ p#nom {
 }
 
 #navigation {
-	width: 100%;
+	width: 110%;
 }
 
+/* Content */
+
+#apropos {
+	background-color: #16a085;
+	height: 500px;
+}
+
+#wrapImageCentre {
+	background-color: #ecf0f1;
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	border-radius: 300px;
+	margin-top: 92px;
+}
+
+#imageCentre {
+	background-color: #1abc9c;
+	height: 289px;
+	width: 291px;
+	text-align: center;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	border-radius: 300px;
+	margin-top: 92px;
+	margin-left: 3px;
+	padding-left: 3px;
+	padding-right: -4px;
+	padding-top: 10px;
+}
+
+#imageCentre img {
+    margin-top: 25px;
+	
+    margin-left: 22px;
+}
